@@ -1,0 +1,25 @@
+.container{
+    width: 1280px;
+    height: 100%;
+    margin: auto;
+}
+.images{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    background-color: white;
+}
+.viewImage{
+    width: 100%;
+}
+.image{
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.viewImage>.image{
+    width: 400px;
+    height: 400px;
+}
